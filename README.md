@@ -1,4 +1,4 @@
-#  Work Tracker PRO MAX
+# Work Tracker PRO MAX
 
 ##  Project Overview
 Work Tracker PRO MAX is a simple task management system that allows Admins to assign tasks and Members to update their progress. It supports task dependencies, workload tracking, and real-time updates using browser storage.
@@ -61,7 +61,7 @@ This helps identify delays in workflow.
 
 ---
 
-##  Storage Used
+## Storage Used
 The application uses browser localStorage to store:
 - Users
 - Tasks
@@ -152,10 +152,14 @@ Each task contains:
 - Improve authentication security
 - Add notifications system
 
+---
+
+##  Timeline
+Completed within the given 24-hour time limit.
 
 ---
 
-## 📩 Submission
+## Submission
 Repository contains:
 - Source code
 - Documentation
