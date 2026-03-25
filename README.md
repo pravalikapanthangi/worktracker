@@ -17,8 +17,8 @@ Work Tracker PRO MAX is a simple task management system that allows Admins to as
 
 ### Member Features
 - View assigned tasks
-- Update task progress using slider
-- Block/Unblock tasks with reason
+- Update task progress using a slider
+- Block/Unblock tasks with a reason
 - Add notes or updates
 
 ---
@@ -29,20 +29,20 @@ Work Tracker PRO MAX is a simple task management system that allows Admins to as
 Each task can depend on another task.  
 A task can only start when the dependent task reaches a required percentage.
 
-Example:  
+**Example:**  
 Task B starts only after Task A reaches 50%.
 
 ---
 
 ### 2. Circular Dependency Detection
 To avoid infinite loops, the system checks if tasks depend on each other in a cycle.  
-If detected, the task is not created.
+If a cycle is detected, the task is not created.
 
 ---
 
 ### 3. Smart Workload Calculation
 The system calculates how many tasks each user has.  
-It helps identify overloaded users and suggests better assignment.
+It helps identify overloaded users and suggests better task assignment.
 
 ---
 
@@ -72,8 +72,8 @@ The application uses browser `localStorage` to store:
 ## Test Credentials
 
 **Admin Login:**  
-Username: admin  
-Password: admin123  
+- Username: admin  
+- Password: admin123  
 
 You can also create new users.
 
@@ -98,7 +98,7 @@ You can also create new users.
 
 ## Edge Cases Handled
 - Prevents circular dependencies  
-- Blocks tasks when dependency is incomplete  
+- Blocks tasks when dependencies are incomplete  
 - Handles manual task blocking  
 - Detects overloaded users
 
@@ -160,7 +160,7 @@ Completed within the given 24-hour time limit.
 ---
 
 ## Submission
-Repository contains:
+The repository contains:
 - Source code  
 - Documentation  
 - Setup instructions  
