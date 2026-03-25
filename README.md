@@ -17,8 +17,8 @@ Work Tracker PRO MAX is a simple task management system that allows Admins to as
 
 ### Member Features
 - View assigned tasks
-- Update task progress using a slider
-- Block/Unblock tasks with a reason
+- Update task progress using slider
+- Block/Unblock tasks with reason
 - Add notes or updates
 
 ---
@@ -29,7 +29,7 @@ Work Tracker PRO MAX is a simple task management system that allows Admins to as
 Each task can depend on another task.  
 A task can only start when the dependent task reaches a required percentage.
 
-**Example:**  
+Example:  
 Task B starts only after Task A reaches 50%.
 
 ---
@@ -42,7 +42,7 @@ If detected, the task is not created.
 
 ### 3. Smart Workload Calculation
 The system calculates how many tasks each user has.  
-It helps identify overloaded users and suggests better task assignment.
+It helps identify overloaded users and suggests better assignment.
 
 ---
 
@@ -54,26 +54,26 @@ This helps identify delays in workflow.
 
 ## Setup and Installation
 
-1. Download or clone the repository  
-2. Open the project folder  
-3. Open `index.html` in any web browser  
-4. No additional installation required  
+1. Download or clone the project
+2. Open the project folder
+3. Open `index.html` in any web browser
+4. No installation required
 
 ---
 
 ## Storage Used
 The application uses browser `localStorage` to store:
-- Users  
-- Tasks  
-- Current logged-in user  
+- Users
+- Tasks
+- Current logged-in user
 
 ---
 
 ## Test Credentials
 
-**Admin Login**  
-- Username: admin  
-- Password: admin123  
+**Admin Login:**  
+Username: admin  
+Password: admin123  
 
 You can also create new users.
 
@@ -85,22 +85,22 @@ You can also create new users.
 3. Add dependencies between tasks  
 4. Login as Member  
 5. Update task progress  
-6. Observe how dependent tasks unlock  
+6. Observe how dependent tasks unlock
 
 ---
 
 ## Assumptions Made
-- The system runs on a single browser using localStorage  
+- The system runs on a single browser using `localStorage`  
 - No backend or database is used  
-- Task IDs are generated using timestamps  
+- Task IDs are generated using timestamps
 
 ---
 
 ## Edge Cases Handled
 - Prevents circular dependencies  
-- Blocks tasks when dependencies are incomplete  
+- Blocks tasks when dependency is incomplete  
 - Handles manual task blocking  
-- Detects overloaded users  
+- Detects overloaded users
 
 ---
 
@@ -108,7 +108,7 @@ You can also create new users.
 
 ### Architecture
 - Frontend only (HTML, CSS, JavaScript)  
-- No backend server  
+- No backend server
 
 ### Data Model
 Each task contains:
@@ -119,22 +119,22 @@ Each task contains:
 - priority  
 - progress  
 - blocked status  
-- dependency details  
+- dependency details
 
 ---
 
 ## Problem Solving Approach
-- Broke the problem into smaller modules (login, tasks, dependencies)  
-- Used modular functions for better structure  
-- Applied recursion for dependency cycle detection  
-- Used arrays and localStorage for data management  
+- Broke problem into smaller parts (login, tasks, dependencies)  
+- Used functions for modular design  
+- Used recursion for dependency cycle detection  
+- Stored data using arrays and `localStorage`
 
 ---
 
 ## Code Quality
 - Clean and readable code  
-- Modular structure  
-- Easy to maintain and extend  
+- Modular functions  
+- Easy to maintain and extend
 
 ---
 
@@ -142,7 +142,7 @@ Each task contains:
 - Simple and user-friendly interface  
 - Interactive progress sliders  
 - Clear status indicators (Ready/Blocked)  
-- Alerts for important actions  
+- Alerts for important actions
 
 ---
 
@@ -150,7 +150,7 @@ Each task contains:
 - Add backend (Node.js)  
 - Use database (MongoDB)  
 - Improve authentication security  
-- Add notification system  
+- Add notifications system
 
 ---
 
@@ -160,8 +160,8 @@ Completed within the given 24-hour time limit.
 ---
 
 ## Submission
-The repository contains:
+Repository contains:
 - Source code  
 - Documentation  
 - Setup instructions  
-- Test credentials  
+- Test credentials
