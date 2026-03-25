@@ -1,11 +1,11 @@
-# 🚀 Work Tracker PRO MAX
+#  Work Tracker PRO MAX
 
-## 📌 Project Overview
+##  Project Overview
 Work Tracker PRO MAX is a simple task management system that allows Admins to assign tasks and Members to update their progress. It supports task dependencies, workload tracking, and real-time updates using browser storage.
 
 ---
 
-## ⚙️ Features
+##  Features
 
 ### Admin Features
 - Create and assign tasks
@@ -23,7 +23,7 @@ Work Tracker PRO MAX is a simple task management system that allows Admins to as
 
 ---
 
-## 🧠 Algorithm Explanation
+##  Algorithm Explanation
 
 ### 1. Dependency Logic
 Each task can depend on another task.
@@ -52,7 +52,7 @@ This helps identify delays in workflow.
 
 ---
 
-## ⚙️ Setup and Installation
+##  Setup and Installation
 
 1. Download or clone the project
 2. Open the project folder
@@ -61,7 +61,7 @@ This helps identify delays in workflow.
 
 ---
 
-## 💾 Storage Used
+##  Storage Used
 The application uses browser localStorage to store:
 - Users
 - Tasks
@@ -69,7 +69,7 @@ The application uses browser localStorage to store:
 
 ---
 
-## 🔐 Test Credentials
+##  Test Credentials
 
 Admin Login:
 Username: admin  
@@ -79,7 +79,7 @@ You can also create new users.
 
 ---
 
-## 🎥 Demo Walkthrough
+##  Demo Walkthrough
 1. Login as Admin
 2. Create tasks and assign them
 3. Add dependencies between tasks
@@ -89,14 +89,14 @@ You can also create new users.
 
 ---
 
-## ⚠️ Assumptions Made
+##  Assumptions Made
 - The system runs on a single browser using localStorage
 - No backend or database is used
 - Task IDs are generated using timestamps
 
 ---
 
-## 🧪 Edge Cases Handled
+##  Edge Cases Handled
 - Prevents circular dependencies
 - Blocks tasks when dependency is incomplete
 - Handles manual task blocking
@@ -104,7 +104,7 @@ You can also create new users.
 
 ---
 
-## 🏗 System Design
+##  System Design
 
 ### Architecture
 - Frontend only (HTML, CSS, JavaScript)
@@ -123,7 +123,7 @@ Each task contains:
 
 ---
 
-## 💡 Problem Solving Approach
+##  Problem Solving Approach
 - Broke problem into smaller parts (login, tasks, dependencies)
 - Used functions for modular design
 - Used recursion for dependency cycle detection
@@ -131,14 +131,14 @@ Each task contains:
 
 ---
 
-## 🎯 Code Quality
+##  Code Quality
 - Clean and readable code
 - Modular functions
 - Easy to maintain and extend
 
 ---
 
-## 🎨 User Experience
+##  User Experience
 - Simple and user-friendly interface
 - Interactive progress sliders
 - Clear status indicators (Ready/Blocked)
@@ -146,16 +146,12 @@ Each task contains:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Add backend (Node.js)
 - Use database (MongoDB)
 - Improve authentication security
 - Add notifications system
 
----
-
-## ⏱ Timeline
-Completed within the given 24-hour time limit.
 
 ---
 
